@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bk1{
+    background: linear-gradient(rgb(77, 77, 77),rgb(0, 0, 0));
+
+    width: 100%;
+    height: 100vh;
+}
+.bk2{
+    border-radius: 20px;
+    background-color:#1F1837;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+.link{
+    justify-content: center;
+    display: flex;
+    direction: rtl;
+
+    width: 80%;
+    height: 12%;
+    position: relative;
+    left:10%;
+    top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
+
+
+.link img{
+    transform: translateX(-100%);
+    position: absolute;
+    top: 30%;
+    left:94%;
+
+}
+.link ul{
+
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 17%;
+    list-style: none;
+} 
+
+.link ul li a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    }
+    .link ul li a:hover{
+        margin-right: 15px;
+        text-decoration: none;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: rgb(255, 0, 0);
+        }
+.name img{
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+
+}
+
+ .bk2 .new2 {
+
+    display:flex;
+    letter-spacing: 2.5px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #E0041A;
+}
+    
+.new2 p{
+        animation-name: zzz;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-delay:calc(0.11s * var(--animat))
+}
+@keyframes zzz {
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+  .bk2  .new1{
+  
+   display: flex;
+   justify-content:end;
+   position: relative;
+   top: 20%;
+   right: 10%;
+    }
+  .im{
+      direction: rtl;
+      display: flex;
+      font-size: 1.5em;
+      font-weight: 600;
+      position: relative;
+      top: 24%;
+      right: 10%;
+      color: rgb(255, 0, 55)
+  }
+  .im h3{
+      color: #E0041A;
+  }
+  .im2{
+    direction: rtl;
+    display: flex;
+    font-size: 1.3em;
+    font-weight: 600;
+    position: relative;
+    top: 24.5%;
+    right: 10%;
+    color: rgb(221, 221, 221);
+}
+.bk2 .but{
+    direction: rtl;
+    position: relative;
+    top: 46%;
+    right: 9%;
+
+
+}
+.but a{
+
+    text-decoration: none;
+    margin-right: 10px;
+}
+.but button{
+    width:7em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 12px;
+    background-color: #ff3605;
+    color: white;
+    border: 2px solid rgb(255, 8, 0);
+
+}
+.but button:hover{
+    width:6.5em;
+    height: 2.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 12px;
+    background-color: #1F1837;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+.sm{
+    font-size: 2em;
+    direction: rtl;
+    position: relative;
+    top: 21%;
+    right:19% ;
+}
+ .sm i{
+   color: #f707DB;
+   margin-left: 10px;
+}
+.sm i:hover{
+    color: rgb(115, 255, 0);
+    margin-left: 10px;
+ }
+ .work{
+     width: 100%;
+     height: 100vh;
+     position: relative;
+ }
+ .work1{
+    transform: translateX(-52%);
+
+     position: absolute;
+     left:50%;
+     top: 25%;
+     display: flex;
+ }
+.work1 a{
+    text-decoration: none;
+}
+ .work .work2{
+     color: #ff0000;
+     background-color: #372c58;
+     width: 15em;
+     height: 20em;
+ border-radius: 12px;
+ margin-left: 20px;
+ }
+ .work2 i{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    position: relative;
+    top: 0.6em;
+    left: 1.2em;
+ }
+ .work2 p{ 
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 600;
+    position: relative;
+    left: 3.5em;
+    top: 2.6em;
+ }
+ 
+.work2  h5{
+    color: rgb(161, 161, 161);
+      font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    left: 1.2em;
+    top: 7em;
+}
+
+.work2 button{
+    background-color:  rgb(255, 0, 0);
+    color:whitesmoke;
+    font-size: 1.4em;
+    font-weight: 600;
+    border:1px solid blue ;
+    
+    width: 7em;
+    height: 2.2em;
+position: relative;
+left: 20%;
+top: 43%;
+border-radius: 30px;
+}
+
+.work2 button:hover{
+    background-color:  #372c58;
+    color:rgb(255, 0, 0);
+    font-size: 1.4em;
+    font-weight: 600;
+    border:2px solid rgb(255, 0, 0) ;
+    
+    width: 8em;
+    height: 2.5em;
+position: relative;
+left: 15%;
+top: 43%;
+border-radius: 30px;
+}
+
+.add2{
+    width: 100%;
+    height: 30vh;
+    background-color: #372c58;
+}
+ 
